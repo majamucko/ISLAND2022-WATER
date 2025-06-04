@@ -37,57 +37,35 @@ Whole bioinformatic pipeline composed of steps:
 
 BACTERIAL DATASET
 
-16S_demux-paired-end.qzv - interactive plots of imported raw reads
+1. 16S_demux-paired-end.qzv - interactive plots of imported raw reads
+2. WATER-denoising-stats_final.qzv - denoising statistics after DADA2 tool application on raw reads
+3. WATER_16s_table_final.qzv - feature table of identified ASVs
+4. WATER_16s_repseqs_final.qzv - representative sequences of identified ASVs
+5. WATER_16S_taxonomy_gg2.qzv - identified taxonomy of ASVs
+6. taxa-barplots_16S_final.qzv - taxonomy barplots on sample level
+7. taxa-barplots_16S_depth.qzv - taxonomy barplots on grouped depth category
+8. taxa-barplots_16S_fraction.qzv - taxonomy barplots on grouped fraction category
 
-WATER-denoising-stats_final.qzv - denoising statistics after DADA2 tool application on raw reads
+EUKARYOTIC DATASET
 
-WATER_16s_table_final.qzv - feature table of identified ASVs
-
-WATER_16s_repseqs_final.qzv - representative sequences of identified ASVs
-
-WATER_16S_taxonomy_gg2.qzv - identified taxonomy of ASVs
-
-taxa-barplots_16S_final.qzv - taxonomy barplots on sample level
-
-taxa-barplots_16S_depth.qzv - taxonomy barplots on grouped depth category
-
-taxa-barplots_16S_fraction.qzv - taxonomy barplots on grouped fraction category
-
-
-EUCARYOTIC DATASET
-
-demux-paired-end_18S.qzv - interactive plots of imported raw reads
-
-WATER_18s_denoising-stats_trunc220.qzv - denoising statistics after DADA2 tool application on raw reads
-
-WATER_18s_table_trunc220.qzv - feature table of identified ASVs
-
-WATER_18s_repseqs_trunc220.qzv - representative sequences of identified ASVs
-
-WATER_18s_taxonomy_pr2.qzv - identified taxonomy of ASVs
-
-taxa-barplot_18S.qzv - taxonomy barplots on sample level
-
-taxa-barplots_18S_depth.qzv - taxonomy barplots on grouped depth category
-
-taxa-barplots_18S_fraction.qzv - taxonomy barplots on grouped fraction category
+1. demux-paired-end_18S.qzv - interactive plots of imported raw reads
+2. WATER_18s_denoising-stats_trunc220.qzv - denoising statistics after DADA2 tool application on raw reads
+3. WATER_18s_table_trunc220.qzv - feature table of identified ASVs
+4. WATER_18s_repseqs_trunc220.qzv - representative sequences of identified ASVs
+5. WATER_18s_taxonomy_pr2.qzv - identified taxonomy of ASVs
+6. taxa-barplot_18S.qzv - taxonomy barplots on sample level
+7. taxa-barplots_18S_depth.qzv - taxonomy barplots on grouped depth category
+8. taxa-barplots_18S_fraction.qzv - taxonomy barplots on grouped fraction category
 
 ### Metadata table
 Full metadata table describing each sample, variable for their discriminations and sample groups
 metadata_water_ISLAND2022_envs.tsv
 
 ### R analysis scripts: 
-16S_18S_cluster_tanglegram_and_heatmap.R
-
-16S_downstream_analysis.R
-
-16S_FunctionalGroup_Spearman_heatmap.R
-
-18S_downstream_analysis.R
-
-Genus_NETWORKs.R
-
-map.R
-
-modularity analyses.R
-
+1. 16S_18S_cluster_tanglegram_and_heatmap.R
+2. 16S_downstream_analysis.R
+3. 16S_FunctionalGroup_Spearman_heatmap.R
+4. 18S_downstream_analysis.R
+5. Genus_NETWORKs.R
+6. map.R
+7. modularity analyses.R
