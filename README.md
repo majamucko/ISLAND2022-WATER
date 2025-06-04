@@ -23,6 +23,7 @@ oligotrophic stratified ecosystem, bacteria, eukaryotes, trophic associations, i
 (24 samples, paired-end reads) submmited to European Nucleotide Archive (ENA: https://www.ebi.ac.uk/ena/browser/search) under project number PRJEB63220; samples W1-W24
 ### Qiime2 code
 DATA FILE: Mucko_etal_2025_WORKFLOW_QIIME2.nb
+
 Whole bioinformatic pipeline composed of steps:
 1. Environment activation
 2. Data import
@@ -35,24 +36,40 @@ Whole bioinformatic pipeline composed of steps:
 .qzv artifact visualizations of all bioinformatic pipeline steps available for viewing interactively via view.qiime2.org
 
 BACTERIAL DATASET
+
 16S_demux-paired-end.qzv - interactive plots of imported raw reads
+
 WATER-denoising-stats_final.qzv - denoising statistics after DADA2 tool application on raw reads
+
 WATER_16s_table_final.qzv - feature table of identified ASVs
+
 WATER_16s_repseqs_final.qzv - representative sequences of identified ASVs
+
 WATER_16S_taxonomy_gg2.qzv - identified taxonomy of ASVs
+
 taxa-barplots_16S_final.qzv - taxonomy barplots on sample level
+
 taxa-barplots_16S_depth.qzv - taxonomy barplots on grouped depth category
+
 taxa-barplots_16S_fraction.qzv - taxonomy barplots on grouped fraction category
 
 
 EUCARYOTIC DATASET
+
 demux-paired-end_18S.qzv - interactive plots of imported raw reads
+
 WATER_18s_denoising-stats_trunc220.qzv - denoising statistics after DADA2 tool application on raw reads
+
 WATER_18s_table_trunc220.qzv - feature table of identified ASVs
+
 WATER_18s_repseqs_trunc220.qzv - representative sequences of identified ASVs
+
 WATER_18s_taxonomy_pr2.qzv - identified taxonomy of ASVs
+
 taxa-barplot_18S.qzv - taxonomy barplots on sample level
+
 taxa-barplots_18S_depth.qzv - taxonomy barplots on grouped depth category
+
 taxa-barplots_18S_fraction.qzv - taxonomy barplots on grouped fraction category
 
 ### Metadata table
@@ -61,9 +78,16 @@ metadata_water_ISLAND2022_envs.tsv
 
 ### R analysis scripts: 
 16S_18S_cluster_tanglegram_and_heatmap.R
+
 16S_downstream_analysis.R
+
 16S_FunctionalGroup_Spearman_heatmap.R
+
 18S_downstream_analysis.R
+
 Genus_NETWORKs.R
+
 map.R
+
 modularity analyses.R
+
